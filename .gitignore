@@ -14,6 +14,12 @@ env/
 *.sqlite
 *.sqlite3
 .uv-cache/
+.uv-cache-audit/
+node_modules/
+.next/
+out/
+backend/.venv/
+.pytest-temp*/
 *.log
 
 # Frontend dependencies and build output
@@ -25,7 +31,6 @@ frontend/tsconfig.tsbuildinfo
 # Local secrets and environment files
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 *.p12
